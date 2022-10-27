@@ -1,0 +1,246 @@
+body{
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 0.5em 1em;
+    background-color: #ffffff;
+    color: #3c3c3c;
+  }
+  
+  .indent { 
+    padding-left: 3em; 
+  }
+  
+  ul.menu {
+    font-size:1.2em;
+  }
+  
+  h1 {
+    border-bottom: black none thin;
+    font-size: 1.4em;
+    padding: 0.30em 0.5em;
+  }
+  
+  h2 {
+    border-bottom: black dotted thin;
+    font-size: 1.3em;
+    padding: 0.25em 1em;
+  }
+  h3 {
+    font-size: 1.2em;
+    padding: 0.25em 1.5em;
+  }
+  
+  p {
+    margin-left: 1em;
+    font-size: 1.0em;
+    text-indent: 1em;
+    letter-spacing: 1px;
+    line-height: 120%;
+  }
+  p.noindent {
+    text-indent: 0em;
+  }
+  
+  li{
+    letter-spacing: 1px;
+    line-height: 130%;
+  }
+  
+  q {
+    quotes: "「" "」";
+    color: #00aa77;
+  }
+  
+  q:before {
+    content: open-quote;
+  }
+  q:after {
+    content: close-quote;
+  }
+  
+  ol {
+    line-height: 110%;
+    font-size: 1.0em;
+    list-style-type: decimal;
+  }
+  
+  ul {
+    margin-top: -0.3em;
+    font-size: 1.0em;
+    line-height: 110%;
+  }
+  
+  ul ul{
+    font-size: 1.0em;
+  }
+  
+  dl {
+    letter-spacing: 1px;
+    font-size: 1.0em;
+    margin-left: 3em;
+  }
+  dd {
+    margin: 0.2em 1em;
+    font-size: 1.0em;
+    letter-spacing: 1px;
+    line-height: 120%;
+  }
+  dt {
+    margin: 0em 0.2em;
+    font-size: 1.0em;
+    line-height: 120%;
+  }
+  
+  pre { 
+    margin: 0em 2em;
+    font-size: 1.0em;
+    font-family: monospace;
+    border: double black;
+    padding: 0.5em 1em;
+    background-color: white;
+  }
+  
+  a:link {
+    color : #3c3c7c;
+    background: transparent;
+  }
+  a:visited {
+    color : #3c3c3c;
+    background: transparent;
+  }
+  a:hover {
+    color :#3c3c37;
+    background-color : #e9e9e9;
+  }
+  a:active {
+    color : #3c3c7c;
+    background : transparent;
+  }
+  
+  blockquote {
+    border:1px solid #003399;
+    padding: 5px;
+    background-color: #f4f4ff;
+  }
+  
+  em {
+    font-style: italic;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  p.topad {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    text-indent: 0em;
+  }
+  p.topad img.ad{
+    width: 421px;
+    height: 54px;
+    border: double 2px black;
+  }
+  
+  /* for source codes */
+  .Type { 
+    color: #2e8b57;
+    font-weight: bold; 
+    letter-spacing: -1px;
+  }
+  .PreProc { 
+    color: #a020f0;
+  }
+  .Comment { 
+    color: #80a0ff;
+  }
+  .Constant { 
+    color: #cc00cc;
+  }
+  .Statement { 
+    color: #804040;
+    font-weight: bold; 
+    letter-spacing: -1px;
+  }
+  .Special { 
+    color: #ffa500; 
+  }
+  
+  /* for header and footer */
+  div.head p {
+    text-indent: 0em;
+  }
+  div.head a:hover {
+    color : #3c3c7c;
+    background : transparent;
+  }
+  div.head img {
+    border: none;
+  }
+  div.foot {
+    text-align: right;
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: black dotted thin;
+  }
+  address {
+    font-size: 1.0em;
+    letter-spacing: 1px;
+    line-height: 120%;
+  }
+  
+  /* for topic path */
+  ul.topic_path {
+    font-size: 0.7em;
+    list-style-type: none;
+    padding-left: 1em;
+    background-color: #eeeeee;
+    margin-left: 0em;
+    border-top: black solid thin;
+    border-bottom: black solid thin;
+  }
+  ul.topic_path li {
+    display: inline;
+  }
+  ul.topic_path li:after {
+    content: " > ";
+  }
+  ul.topic_path li.here {
+    background-color: yellow;
+  }
+  ul.topic_path li.here:after {
+    content: "";
+  }
+  ul.topic_path li a {
+    text-decoration: none;
+  }
+  table {
+    margin: 1px 30px;
+    border: black solid thin;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  table caption {
+  
+    line-height: 1.5em;
+    font-size: 1.1em;
+  }
+  table th {
+    width: 8em;
+    border: black solid thin;
+    background-color: #eeeeee;
+    line-height: 1.5em;
+  }
+  table td {
+    border: black solid thin;
+    line-height: 1.5em;
+  }
+  
+  img.logo {
+    float: right;
+    width: 200px;
+    height: auto;
+  }
